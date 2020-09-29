@@ -1,0 +1,19 @@
+
+
+.ref{
+  @include xl{
+    width: 50rem !important;
+  }
+}
+
+
+.sous_unity{
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.sous_block.ref__element{
+  @include md{
+    width:50rem;
+  }
+}

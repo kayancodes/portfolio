@@ -1,0 +1,25 @@
+
+.bgc_val{
+   
+    h3, p{
+        color:$color1;
+        position:relative;
+        filter: brightness(100%);
+    }
+
+    background-image:url('assets/img/wall_bande1.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    color:black;
+    background-repeat: no-repeat;
+    width:100%;
+        
+}
+
+.val--element{
+    margin:0 0 2rem;
+
+    .sous_unity{
+        text-align: center;
+    }
+}

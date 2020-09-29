@@ -1,0 +1,38 @@
+
+
+
+.intro{
+  
+.intro__img{
+
+  .img_profil{
+    width: 100%;
+    display: block;
+    margin:3vh auto 3.5vh;
+
+    @include md{
+      width: 100%;
+    }
+
+  }
+}
+
+  .intro__txt{
+      p{
+        text-align: justify;
+
+        @include md{
+          margin: 2.2rem 1.2rem 1rem
+        }
+
+        @include xl{
+          margin: 4.2rem 1.2rem 1rem;
+        }
+      }
+  }
+
+  
+
+
+
+}

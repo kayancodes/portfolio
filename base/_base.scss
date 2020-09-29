@@ -1,0 +1,181 @@
+
+//CSS GENERAL
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.colorbis, span{
+  color:#8B4513;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  font-size: 4vw; 
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+ 
+
+  @include md{
+    font-size: 16px; 
+  }
+
+  @include xl{
+    font-size: 16px; 
+  }
+}
+
+
+
+
+
+#main {
+    @include md{
+        width: 100%;
+        border:1px solid transparent;
+      }
+  }
+
+  a{
+    text-decoration: none;
+    color:$color2;
+  }
+
+
+
+section{
+    padding:6rem 1.2rem;
+    @include xl{
+        width: 100%;
+      }
+    }
+
+
+//COULEUR BACKGROUND 
+//Section coloré NOIR
+.bgc_blk{
+    background-color:$color2;
+}
+
+//Section coloré GRIS
+.bgc_gry{
+    background-color:$color5;
+}
+
+
+
+.block{
+    @include md{
+        width: 40rem;
+        margin:0 auto;
+        border:1px solid transparent;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      @include xl{
+        width: 60rem;
+      }
+}
+
+
+
+.sous_block{
+    width: 100%;
+    @include md{
+        width:45%;
+    }
+    @include xl{
+      width:45%;
+  }
+}
+
+.sous_block_line{
+    @include md{
+        width:25%;
+    }
+}
+
+
+
+h3{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+
+h4{
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color:$color2;
+}
+
+
+
+.bouton{
+  width:45vw;
+  border:1px solid #FFF;
+  color:#FFF;
+  text-align: center;
+  margin:1.3vh auto;
+  padding:0.5vh 0;
+  transition : background-color 0.3s ease-in-out;
+
+  @include md{
+    width:26vw;
+  }
+  @include xl{
+    width:15vw; 
+  }
+
+  &:hover{
+    color:#FFF;
+    background-color: #FFF;
+  }
+}//fin .bouton
+
+
+.first{
+  &:hover{
+    color:#000;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.bouton2{
+  width:65vw;
+  border:1px solid #8B4513;;
+  color:#8B4513;;
+  text-align: center;
+  margin:0 auto;
+  padding:0.5vh 0;
+  transition : background-color 0.3s ease-in-out;
+
+  @include md{
+    width:30vw;
+  }
+  @include xl{
+    max-width: 16rem;
+
+  }
+
+  &:hover{
+    color:#fff;
+    background-color:#8B4513;;
+  }
+}//fin .bouton
+
+

@@ -1,0 +1,27 @@
+//BASE
+@import "base/breakpoints.scss"; //à mettre en premier 
+@import "base/mixins.scss";
+@import "base/variables.scss";
+@import "base/base.scss";
+
+
+//LAYOUT
+@import "layout/nav.scss";
+@import "layout/header.scss";
+@import "layout/comp.scss";
+@import "layout/real.scss";
+@import "layout/stats.scss";
+@import "layout/out.scss";
+@import "layout/val.scss";
+@import "layout/centres.scss";
+@import "layout/palm.scss";
+@import "layout/ref.scss";
+@import "layout/plus.scss";
+@import "layout/cont.scss";
+@import "layout/footer.scss";
+
+
+
+
+
+

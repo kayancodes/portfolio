@@ -1,0 +1,29 @@
+.compe--element{
+    margin:0 0 2rem;
+    padding:1.2rem;
+    text-align: center;
+    
+
+    @include md{
+        width:45%;
+
+        &:nth-child(even){
+            margin-left: 3rem;
+        }
+    }
+
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
