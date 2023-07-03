@@ -5,6 +5,7 @@
 
 //====================== DEBUT CSS GENERAL ====================== //
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap');
 
 //====================== DEBUT CSS GENERAL ====================== //
 :root {
@@ -14,8 +15,11 @@
 
 
     //==== FONT AND TYPOGRAPHY ====================== //
-    --body-font: 'Open Sans', sans-serif;
-    --title-font: 'Raleway', sans-serif;
+    // --body-font: 'Open Sans', sans-serif;
+    // --title-font: 'Raleway', sans-serif;
+
+    --body-font: 'Roboto', sans-serif;
+    --title-font: 'Roboto', sans-serif;
 
 
     //.5rem = 8px, 1rem = 16px, 1.5rem = 24px ..
@@ -130,6 +134,8 @@ h3 {
     font-family: var(--title-font)
 }
 
+
+
 ul {
     list-style: none;
 }
@@ -161,6 +167,14 @@ button {
 input {
     outline: none;
 }
+
+.desktop{
+    display:none;
+    border: 1px solid green;
+}
+
+
+
 
 //===================== FIN BASE ========================================== //
 
@@ -407,8 +421,8 @@ input {
 
 
 .apropos__description {
-    text-align: center;
-    margin-bottom: var(--mb-2-5);
+    text-align: justify;
+    margin-bottom: var(--mb-1-5);
 }
 
 .apropos__info {
@@ -473,6 +487,7 @@ input {
 .apropos__palmares-image {
     max-width: 60%;
 }
+
 
 //========FIN A PROPOS==============================================//
 
@@ -777,6 +792,7 @@ input {
 
 a.portfolio__data {
     color: $color4;
+    text-align: center;
 }
 
 
@@ -1018,6 +1034,10 @@ a.contact__title h3:hover {
     background-color: $color4;
 }
 
+.footer.section{
+    padding: 1.5rem 0;
+}
+
 .footer__container {
     row-gap: 5rem;
     background-color: $color4;
@@ -1097,7 +1117,7 @@ a.contact__title h3:hover {
     background-color: $color4;
     padding: .5rem;
     display: flex;
-    opacity: .9;
+    // opacity: .9;
     z-index: var(--z-tooltip);
     transition: .4s;
 }
@@ -1168,6 +1188,7 @@ a.contact__title h3:hover {
     .portfolio__img-container {
         max-width: 60%;
     }
+
 }
 
 //FIN MAX 440px smartphones (landscape view)------------------------------------//
@@ -1308,11 +1329,11 @@ a.contact__title h3:hover {
 
 
     .apropos__container {
-        column-gap: 5rem;
+        column-gap: 3rem;
     }
 
     .apropos__description {
-        text-align: initial;
+        text-align: justify;
     }
 
     .apropos__info {
@@ -1384,6 +1405,35 @@ a.contact__title h3:hover {
         display: none;
     }
 
+    .apropos__container {
+        column-gap: 2rem;
+    }
+
+    .apropos__data{
+        border: 1px solid red;
+    }
+
+    .apropos__img--profil{
+        border: 1px solid blue;
+        padding-top: 20px;
+        max-height: 192px;
+    }
+
+    .apropos__data {
+        border: 1px solid red;
+        min-height: 192px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .apropos__description {
+        text-align: justify;
+        margin-bottom: var(--mb-0-5);
+    }
+
+
+
 }
 
 //FIN 768px small tablets and large smartphones (landscape view) ----------------------------------//
@@ -1451,6 +1501,24 @@ a.contact__title h3:hover {
         //INTEGRATION FIAT
         width: 48%;
     }
+
+    .apropos__img--profil{
+        max-height: 256px;
+    }
+
+    .apropos__data {
+        border: 1px solid red;
+        min-height: 256px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .desktop{
+        display:block;
+        border: 1px solid green;
+    }
+
 }
 
 //FIN 1024px extra Large tablets and desktops ----------------------------------//
