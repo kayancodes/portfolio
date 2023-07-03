@@ -512,6 +512,13 @@ input {
 }
 
 
+
+.competences__header--leftMobile{
+    display: none;
+}
+
+
+
 .competences__title {
     font-size: var(--h3-font-size);
 }
@@ -1431,6 +1438,17 @@ a.contact__title h3:hover {
         text-align: justify;
         margin-bottom: var(--mb-0-5);
     }
+
+    .competences__header--leftMobile{
+        display: flex;
+        }
+        .competences__arrow.leftMobile {
+            color: red !important;
+            margin-left: 0px;
+        }
+        .leftMobile{
+            margin-left: auto; 
+        }
 
 
 
