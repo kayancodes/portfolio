@@ -385,6 +385,10 @@ input {
   display: none;
 }
 
+.competences__header--leftDesktop {
+  display: flex;
+}
+
 .competences__title {
   font-size: var(--h3-font-size);
 }
@@ -1128,12 +1132,15 @@ a.contact__title h3:hover {
   }
 
   .competences__arrow.leftMobile {
-    color: red !important;
     margin-left: 0px;
   }
 
   .leftMobile {
     margin-left: auto;
+  }
+
+  .competences__header--leftDesktop {
+    display: none;
   }
 }
 @media (min-width: 1024px) {

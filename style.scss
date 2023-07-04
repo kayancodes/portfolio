@@ -516,6 +516,12 @@ input {
 .competences__header--leftMobile{
     display: none;
 }
+.competences__header--leftDesktop{
+    display: flex;
+}
+// .competences__arrow.leftDesktop {
+//     color: red !important;
+// }
 
 
 
@@ -1443,11 +1449,15 @@ a.contact__title h3:hover {
         display: flex;
         }
         .competences__arrow.leftMobile {
-            color: red !important;
+        //   color: red !important;  
             margin-left: 0px;
         }
         .leftMobile{
             margin-left: auto; 
+        }
+
+        .competences__header--leftDesktop{
+            display: none;
         }
 
 
