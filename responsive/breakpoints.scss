@@ -1,13 +1,12 @@
 //extra-small smartphones (landscape view)
-// $screen-xs-min: 320px;
+$screen-xs-min: 320px;
+
+//smartphones et Iphone X (landscape view)
+$screen-s-max: 375px;
 
 
-
-//smartphones (landscape view)
-$screen-s-max: 440px;
-
-//meddium smartphones (landscape view)
-$screen-ss-min: 441px;
+//meddium smartphones IPhone 6 / 7 / 8 plus (landscape view)
+$screen-ss-min: 414px;
 
 
 

@@ -1,19 +1,19 @@
 //MIXINS
 
-//320px extra small devices 
-// @mixin xs {
-//     @media (min-width: #{$screen-xs-min}){
-//       @content;
-//     }
-//   }
-
-//MAX 440px smartphones (landscape view)
-@mixin s {
-    @media (max-width: #{$screen-s-max}){
+// 320px extra small devices 
+@mixin xs {
+    @media (min-width: #{$screen-xs-min}){
       @content;
     }
   }
-//441px meddium smartphones (landscape view)
+
+//MAX 375px smartphones (landscape view)
+@mixin s {
+    @media (min-width: #{$screen-s-max}){
+      @content;
+    }
+  }
+//414px IPhone 6 / 7 / 8 plus meddium smartphones (landscape view)
 @mixin ss {
   @media (min-width: #{$screen-ss-min}){
     @content;

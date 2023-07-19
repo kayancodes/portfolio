@@ -635,7 +635,8 @@ input {
 }
 
 .portfolio__bkg-mobile {
-  padding: 4rem 7rem 9rem;
+  padding: 4rem 4rem 9rem;
+  border: 1px solid blue;
 }
 
 .portfolio__card {
@@ -673,6 +674,7 @@ a.portfolio__data {
 .portfolio__subtitle {
   font-size: var(--smaller-font-size);
   margin-bottom: var(--mb-1-5);
+  line-height: 18px;
 }
 
 .portfolio__title {
@@ -922,7 +924,7 @@ a.contact__title h3:hover {
 
 .footer__copy,
 .footer__terms-link {
-  font-size: 13px !important;
+  font-size: 12px !important;
   color: #000;
   font-weight: var(--font-normal);
 }
@@ -952,7 +954,7 @@ a.contact__title h3:hover {
   bottom: 5rem;
 }
 
-@media (max-width: 440px) {
+@media (min-width: 375px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -981,8 +983,17 @@ a.contact__title h3:hover {
   .portfolio__img-container {
     max-width: 60%;
   }
+
+  .portfolio__bkg-mobile {
+    padding: 4rem 6rem 9rem;
+    border: 1px solid red;
+  }
+
+  .footer__copy, .footer__terms-link {
+    font-size: 13px !important;
+  }
 }
-@media (min-width: 441px) {
+@media (min-width: 414px) {
   .apropos__data {
     margin-top: 3rem;
     margin-bottom: 0;
@@ -1000,6 +1011,11 @@ a.contact__title h3:hover {
 
   .apropos__interets {
     text-align: left;
+  }
+
+  .portfolio__bkg-mobile {
+    padding: 4rem 7rem 9rem;
+    border: 1px solid pink;
   }
 }
 @media (min-width: 568px) {
@@ -1304,7 +1320,7 @@ a.contact__title h3:hover {
   }
 
   .portfolio__bkg {
-    padding: 4rem;
+    padding: 4rem 4rem 6rem;
   }
 
   .portfolio__bkg-mobile {

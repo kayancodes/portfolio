@@ -828,7 +828,8 @@ input {
 }
 
 .portfolio__bkg-mobile{
-    padding: 4rem 7rem 9rem;
+    padding: 4rem 4rem 9rem;
+    border: 1px solid blue;
 }
 
 
@@ -871,7 +872,8 @@ a.portfolio__data {
 
 .portfolio__subtitle {
     font-size: var(--smaller-font-size);
-    margin-bottom: var(--mb-1-5),
+    margin-bottom: var(--mb-1-5);
+    line-height: 18px;
 }
 
 .portfolio__title {
@@ -1173,7 +1175,7 @@ a.contact__title h3:hover {
 
 .footer__copy,
 .footer__terms-link {
-    font-size: 13px !important;
+    font-size: 12px !important;
     color: $color5;
     font-weight: var(--font-normal);
 }
@@ -1228,8 +1230,18 @@ a.contact__title h3:hover {
 
 //========  DEBUT MEDIA QUERRY ==========================================================================================================//
 
+//DEBUT MAX 320px smartphones extra-small------------------------------------//
+// @include xs {
+//     .portfolio__bkg-mobile{
+//         padding: 4rem 4rem 9rem;
+//         border :1px solid blue;
+//     }
+// }
+//DEBUT MAX 320px smartphones extra-small------------------------------------//
 
-//DEBUT MAX 440px smartphones (landscape view)------------------------------------//
+
+
+//DEBUT MAX 375px smartphones (landscape view)------------------------------------//
 @include s {
 
 
@@ -1269,17 +1281,27 @@ a.contact__title h3:hover {
         max-width: 60%;
     }
 
+
+    .portfolio__bkg-mobile{
+        padding: 4rem 6rem 9rem;
+        border :1px solid red;
+     }
+
+     .footer__copy, .footer__terms-link {
+        font-size: 13px !important;
+     }
+ 
+
 }
-
-//FIN MAX 440px smartphones (landscape view)------------------------------------//
-
+//FIN MAX 375px smartphones (landscape view)------------------------------------//
 
 
 
 
 
 
-//DEBUT 441px meddium smartphones (landscape view)------------------------------------//
+
+//DEBUT 414px IPhone 6 / 7 / 8 plusmeddium smartphones (landscape view)------------------------------------//
 @include ss {
 
     .apropos__data {
@@ -1300,9 +1322,13 @@ a.contact__title h3:hover {
         text-align: left;
     }
 
-}
+    .portfolio__bkg-mobile{
+        padding: 4rem 7rem 9rem;
+        border :1px solid pink;
+     }
 
-//FIN 441px meddium smartphones (landscape view)------------------------------------//
+}
+//FIN 414px meddium smartphones (landscape view)------------------------------------//
 
 
 
@@ -1363,7 +1389,6 @@ a.contact__title h3:hover {
         text-align: right;
     }
 }
-
 //FIN 568px small tablets and large smartphones (landscape view)-----------------------------------//
 
 
@@ -1610,7 +1635,6 @@ a.contact__title h3:hover {
 
 
 }
-
 //FIN 768px small tablets and large smartphones (landscape view) ----------------------------------//
 
 
@@ -1697,7 +1721,8 @@ a.contact__title h3:hover {
 
 
 .portfolio__bkg {
-    padding: 4rem;
+    // padding: 4rem;
+    padding: 4rem 4rem 6rem;
 }
 
 .portfolio__bkg-mobile{
@@ -1716,7 +1741,6 @@ a.contact__title h3:hover {
     }
 
 }
-
 //FIN 1024px extra Large tablets and desktops ----------------------------------//
 
 
