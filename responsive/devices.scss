@@ -27,6 +27,7 @@
     @content;
   }
 }
+
 //695px medium tablets (portrait view)
 @mixin smm {
   @media (min-width: #{$screen-smm-min}){
@@ -51,6 +52,15 @@ $screen-ms-max: 767px;
     @content;
   }
 }
+
+
+//830px small tablets and large smartphones (landscape view)
+@mixin ml {
+  @media (min-width: #{$screen-ml-min}){
+    @content;
+  }
+}
+  
   
   
 //968px Tablets and small desktops

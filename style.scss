@@ -1322,6 +1322,16 @@ a.contact__title h3:hover {
         text-align: left;
     }
 
+    .apropos__stats{
+        text-align: left;
+    }
+
+    .apropos__valeurs {
+        margin: 0rem 0 2rem;
+    }
+
+
+
     .portfolio__bkg-mobile{
         padding: 4rem 7rem 9rem;
         border :1px solid pink;
@@ -1373,7 +1383,13 @@ a.contact__title h3:hover {
         justify-content: center;
     }
 
+    h3{
+        font-size: 15px;
+    }
 
+    .button {
+        font-size: 11px;
+    }
 
 
     .apropos2__container {
@@ -1388,6 +1404,32 @@ a.contact__title h3:hover {
     .apropos3__texte {
         text-align: right;
     }
+
+    .apropos__palmares-title{
+        text-align: left;
+    }
+
+
+    .apropos__palmares {
+        padding-top: 0;
+    }
+    .apropos__stats-infos, .apropos__valeurs-infos, 
+    .apropos__interets-infos, .apropos__palmares-infos{
+        margin: 0.6rem 0 0rem;
+        line-height: 22px;
+        font-size: 11px;
+    }
+
+    .apropos__palmares-infos{
+        line-height: 20px;
+    }
+
+
+
+    .portfolio__bkg-mobile{
+        padding: 4rem 4rem 9rem;
+        border :1px solid green;
+     }
 }
 //FIN 568px small tablets and large smartphones (landscape view)-----------------------------------//
 
@@ -1638,6 +1680,24 @@ a.contact__title h3:hover {
 //FIN 768px small tablets and large smartphones (landscape view) ----------------------------------//
 
 
+
+
+
+//DEBUT 830px small tablets and large smartphones (landscape view)
+@include ml {
+
+    .portfolio__bkg{
+        padding: 0rem 3rem 6rem;
+        border: 1px solid orangered;
+    }
+
+
+    .portfolio__bkg-mobile{
+        padding: 0rem 8rem 8rem;
+        border: 1px solid purple;
+    }
+}
+//FIN 830px small tablets and large smartphones (landscape view)
 
 
 
