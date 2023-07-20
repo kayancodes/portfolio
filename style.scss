@@ -829,7 +829,7 @@ input {
 
 .portfolio__bkg-mobile{
     padding: 4rem 4rem 9rem;
-    border: 1px solid blue;
+    // border: 1px solid blue;
 }
 
 
@@ -1284,7 +1284,7 @@ a.contact__title h3:hover {
 
     .portfolio__bkg-mobile{
         padding: 4rem 6rem 9rem;
-        border :1px solid red;
+        // border :1px solid red;
      }
 
      .footer__copy, .footer__terms-link {
@@ -1313,6 +1313,9 @@ a.contact__title h3:hover {
         text-align: left;
         // margin-top: var(--mb-2-5);
     }
+    .apropos__palmares {
+        padding-top: 0;
+    }
     .apropos__infos {
         // margin-top: 0;
         display: flex;
@@ -1331,10 +1334,13 @@ a.contact__title h3:hover {
     }
 
 
+    .portfolio__bkg{
+        padding: 7rem 2rem 12rem;
+    }
 
     .portfolio__bkg-mobile{
         padding: 4rem 7rem 9rem;
-        border :1px solid pink;
+        // border :1px solid pink;
      }
 
 }
@@ -1428,7 +1434,7 @@ a.contact__title h3:hover {
 
     .portfolio__bkg-mobile{
         padding: 4rem 4rem 9rem;
-        border :1px solid green;
+        // border :1px solid green;
      }
 }
 //FIN 568px small tablets and large smartphones (landscape view)-----------------------------------//
@@ -1688,13 +1694,13 @@ a.contact__title h3:hover {
 
     .portfolio__bkg{
         padding: 0rem 3rem 6rem;
-        border: 1px solid orangered;
+        // border: 1px solid orangered;
     }
 
 
     .portfolio__bkg-mobile{
         padding: 0rem 8rem 8rem;
-        border: 1px solid purple;
+        // border: 1px solid purple;
     }
 }
 //FIN 830px small tablets and large smartphones (landscape view)

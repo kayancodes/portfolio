@@ -636,7 +636,6 @@ input {
 
 .portfolio__bkg-mobile {
   padding: 4rem 4rem 9rem;
-  border: 1px solid blue;
 }
 
 .portfolio__card {
@@ -986,7 +985,6 @@ a.contact__title h3:hover {
 
   .portfolio__bkg-mobile {
     padding: 4rem 6rem 9rem;
-    border: 1px solid red;
   }
 
   .footer__copy, .footer__terms-link {
@@ -1002,6 +1000,10 @@ a.contact__title h3:hover {
   .apropos__valeurs,
 .apropos__palmares {
     text-align: left;
+  }
+
+  .apropos__palmares {
+    padding-top: 0;
   }
 
   .apropos__infos {
@@ -1021,9 +1023,12 @@ a.contact__title h3:hover {
     margin: 0rem 0 2rem;
   }
 
+  .portfolio__bkg {
+    padding: 7rem 2rem 12rem;
+  }
+
   .portfolio__bkg-mobile {
     padding: 4rem 7rem 9rem;
-    border: 1px solid pink;
   }
 }
 @media (min-width: 568px) {
@@ -1102,7 +1107,6 @@ a.contact__title h3:hover {
 
   .portfolio__bkg-mobile {
     padding: 4rem 4rem 9rem;
-    border: 1px solid green;
   }
 }
 @media (min-width: 695px) {
@@ -1295,12 +1299,10 @@ a.contact__title h3:hover {
 @media (min-width: 830px) {
   .portfolio__bkg {
     padding: 0rem 3rem 6rem;
-    border: 1px solid orangered;
   }
 
   .portfolio__bkg-mobile {
     padding: 0rem 8rem 8rem;
-    border: 1px solid purple;
   }
 }
 @media (min-width: 1024px) {
