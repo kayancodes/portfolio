@@ -90,8 +90,8 @@ h1 {
 
 h2 {
   color: #000;
-  font-weight: var(--font-medium);
-  font-family: var(--body-font);
+  font-weight: var(--font-normal);
+  font-family: var(--font-normal);
   text-align: center;
   font-size: var(--mb-2);
 }
