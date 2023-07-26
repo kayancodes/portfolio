@@ -23,12 +23,12 @@
 
 
     //.5rem = 8px, 1rem = 16px, 1.5rem = 24px ..
-    --big-font-size: 2rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.2rem;
+    --big-font-size: 1.9rem;
+    --h1-font-size: 1.9rem;
+    --h2-font-size: 1.6rem;
     --h3-font-size: 1.125rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .8125rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .9rem;
     --smaller-font-size: .75rem;
 
 
@@ -102,7 +102,11 @@ body {
 }
 
 h1 {
-display: none;
+    font-family: var(--title-font);
+    font-size: 2rem;
+    font-weight: var(--font-medium);
+    color: var(--color4);
+    text-align: left !important;
 }
 
 h1,
@@ -120,10 +124,10 @@ h1 {
 
 .h2__titre {
     color: $color5;
-    font-weight: var(--font-light);
+    font-weight: var(--font-normal);
     font-family: var(--body-font);
     text-align: center;
-    font-size: var(--mb-1-5);
+    margin-bottom: var(--mb-1-5);
 }
 
 h2 {
@@ -137,6 +141,10 @@ h2 {
 h3 {
     color: $color5;
     font-family: var(--title-font)
+}
+
+p{
+    line-height: 1.6rem;
 }
 
 
@@ -193,7 +201,7 @@ input {
 }
 
 .section__title {
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
     margin-bottom: var(--mb-3);
 }
 
@@ -220,8 +228,8 @@ input {
 
 .grid {
     display: grid;
-    // gap: 1.5rem;
-    gap:2rem;
+    gap: 1.5rem;
+    // gap:2rem;
 }
 
 
@@ -230,8 +238,8 @@ input {
     display: inline-block;
     background-color: $color5;
     color: $color0;
-    padding: .8rem 3rem;
-    font-weight: var(--font-light);
+    padding: .5rem 2rem;
+    font-weight: var(--font-medium);
     font-size: var(--small-font-size);
     transition: .3s;
 }
@@ -403,7 +411,7 @@ input {
 
 .home__info-img {
     background-color:transparent;
-    padding: 2rem 1.5rem 2rem 1.5rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 .home__info-text {
@@ -415,8 +423,10 @@ input {
 
 
 .home__description {
-    font-size: var(--normal-font-size);
+    font-size: var(--normal-font-siz);
+    margin-bottom: 1rem;
 }
+
 
 //================= FIN HOME ========================================== //
 
@@ -516,6 +526,8 @@ input {
 .apropos__stats-infos{
     margin: .6rem 0 0rem;
     line-height: 22px;
+    // color: red;
+    font-size: var(--small-font-size);
     
 }
 
@@ -554,7 +566,7 @@ input {
 
 
 .competences__arrow {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #222;
 }
 
@@ -573,7 +585,7 @@ input {
 
 
 .competences__title {
-    font-size: var(--h3-font-size);
+    font-size: 1.18rem;
 }
 
 .competences__subtitle {
@@ -1175,7 +1187,7 @@ a.contact__title h3:hover {
 
 .footer__copy,
 .footer__terms-link {
-    font-size: 12px !important;
+    font-size: 14px !important;
     color: $color5;
     font-weight: var(--font-normal);
 }
@@ -1246,8 +1258,8 @@ a.contact__title h3:hover {
 
 
     .container {
-        margin-left: var(--mb-1);
-        margin-right: var(--mb-1);
+        margin-left: var(--mb-2);
+        margin-right: var(--mb-2);
     }
 
 
@@ -1288,7 +1300,7 @@ a.contact__title h3:hover {
      }
 
      .footer__copy, .footer__terms-link {
-        font-size: 13px !important;
+        font-size: 14px !important;
      }
  
 
@@ -1427,7 +1439,7 @@ a.contact__title h3:hover {
     }
 
     .apropos__palmares-infos{
-        line-height: 20px;
+        line-height: 23px;
     }
 
 
@@ -1587,7 +1599,7 @@ a.contact__title h3:hover {
 
 
     .apropos__container {
-        column-gap: 2rem;
+        column-gap: 1.5rem;
     }
 
     // .apropos__data{
@@ -1781,6 +1793,9 @@ a.contact__title h3:hover {
         justify-content: space-between;
         flex-direction: column;
     }
+    .apropos__container {
+        column-gap: 2.5rem;
+    }
 
 
 
@@ -1801,7 +1816,7 @@ a.contact__title h3:hover {
     }
 
     p.footer__copy{
-        font-size: 13px !important;
+        font-size: 14px !important;
         color: $color5;
     }
 
