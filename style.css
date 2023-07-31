@@ -61,7 +61,7 @@ body {
 
 h1 {
   font-family: var(--title-font);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: var(--font-medium);
   color: var(--color4);
   text-align: left !important;
@@ -309,7 +309,7 @@ input {
 
 .home__description {
   font-size: var(--normal-font-siz);
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 .apropos__img-container {
@@ -974,7 +974,7 @@ a.contact__title h3:hover {
   }
 
   .home__info-text {
-    padding: 2rem 1.5rem;
+    padding: 0rem 1.5rem 2rem;
   }
 
   .qualification__data {
