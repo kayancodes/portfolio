@@ -387,6 +387,9 @@ input {
 #home {
     background-color: white;
     // padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -1260,6 +1263,9 @@ a.contact__title h3:hover {
     .container {
         margin-left: var(--mb-2);
         margin-right: var(--mb-2);
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
     }
 
 
@@ -1743,9 +1749,9 @@ a.contact__title h3:hover {
     .home__container {
         margin-left: auto !important;
         margin-right: auto !important;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
     }
 
     .home__info-text {

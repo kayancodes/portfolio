@@ -276,6 +276,9 @@ input {
 
 #home {
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home__container {
@@ -1333,9 +1336,6 @@ a.contact__title h3:hover {
   .home__container {
     margin-left: auto !important;
     margin-right: auto !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .home__info-text {
