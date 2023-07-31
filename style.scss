@@ -1187,7 +1187,7 @@ a.contact__title h3:hover {
 
 .footer__copy,
 .footer__terms-link {
-    font-size: 14px !important;
+    font-size: 12px !important;
     color: $color5;
     font-weight: var(--font-normal);
 }
@@ -1743,6 +1743,9 @@ a.contact__title h3:hover {
     .home__container {
         margin-left: auto !important;
         margin-right: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .home__info-text {
