@@ -329,7 +329,11 @@ input {
 }
 
 .apropos__description {
-  text-align: justify;
+  text-align: left;
+  margin-bottom: var(--mb-1);
+}
+
+.apropos__description:last-of-type {
   margin-bottom: var(--mb-1-5);
 }
 

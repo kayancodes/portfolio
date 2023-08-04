@@ -457,7 +457,13 @@ input {
 
 
 .apropos__description {
-    text-align: justify;
+    // text-align: justify;
+    text-align: left;
+    margin-bottom: var(--mb-1);
+}
+
+.apropos__description:last-of-type {
+    // border: 1px solid red;
     margin-bottom: var(--mb-1-5);
 }
 
@@ -1548,6 +1554,7 @@ a.contact__title h3:hover {
 
 
 
+
     .portfolio__container.grid {
         gap: 2rem;
     }
@@ -1643,6 +1650,10 @@ a.contact__title h3:hover {
         text-align: justify;
         margin-bottom: var(--mb-0-5);
     }
+    // .apropos__description:last-of-type {
+    //     margin-bottom: var(--mb-0-5);
+    // }
+    
 
 
     .apropos__valeurs-infos,
