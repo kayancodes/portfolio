@@ -484,12 +484,12 @@ input {
   width: 70%;
 }
 
-.competences__ps {
-  width: 50%;
+.competences__ui {
+  width: 60%;
 }
 
-.competences__xd {
-  width: 50%;
+.competences__adobe {
+  width: 60%;
 }
 
 .competences__app {
@@ -512,20 +512,20 @@ input {
   width: 50%;
 }
 
-.competences__nodejs {
-  width: 50%;
+.competences__wp {
+  width: 60%;
+}
+
+.competences__phpSymfony {
+  width: 40%;
 }
 
 .competences__sql {
   width: 40%;
 }
 
-.competences__php {
+.competences__nodejs {
   width: 40%;
-}
-
-.competences__symfony {
-  width: 60%;
 }
 
 .competences__agile {
