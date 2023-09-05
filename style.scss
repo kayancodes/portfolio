@@ -647,7 +647,30 @@ input {
 
 //======== GRADUATIONS
 
-//-------- DEBUT DESIGNER
+
+
+
+//-------- DEBUT CHEF DE PROJET 
+.competences__agile {
+    width: 70%;
+}
+
+.competences__cdc {
+    width: 70%;
+}
+
+.competences__trello {
+    width: 70%;
+}
+
+.competences__anglais {
+    width: 60%;
+}
+
+//-------- FIN CHEF DE PROJET 
+
+
+//-------- DEBUT TESTEUR
 .competences__acceptation {
     width: 70%;
 }
@@ -664,7 +687,7 @@ input {
     width: 70%;
 }
 
-//-------- FIN DESIGNER
+//-------- FIN TESTEUR
 
 
 //-------- DEBUT FRONTEND 
@@ -706,24 +729,6 @@ input {
 //-------- FIN BACKEND 
 
 
-//-------- DEBUT CHEF DE PROJET 
-.competences__agile {
-    width: 70%;
-}
-
-.competences__cdc {
-    width: 70%;
-}
-
-.competences__trello {
-    width: 70%;
-}
-
-.competences__anglais {
-    width: 60%;
-}
-
-//-------- FIN CHEF DE PROJET 
 
 
 .competences__close .competences__list {
