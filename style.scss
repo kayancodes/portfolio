@@ -24,8 +24,8 @@
 
     //.5rem = 8px, 1rem = 16px, 1.5rem = 24px ..
     --big-font-size: 1.9rem;
-    --h1-font-size: 1.9rem;
-    --h2-font-size: 1.6rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 1.5rem;
     --h3-font-size: 1.125rem;
     --normal-font-size: 1rem;
     --small-font-size: .9rem;
@@ -69,8 +69,8 @@
 @include lg {
     :root {
         --big-font-size: 3rem;
-        --h1-font-size: 2.25rem;
-        --h2-font-size: 1.5rem;
+        --h1-font-size: 4rem;
+        --h2-font-size: 2rem;
         --h3-font-size: 1.25rem;
         --normal-font-size: 1rem;
         --small-font-size: .875rem;
@@ -103,13 +103,13 @@ body {
 
 h1 {
     font-family: var(--title-font);
-    font-size: 1.5rem;
+    font-size: var(--h1-font-size);
     font-weight: var(--font-medium);
-    color: var(--color4);
-    text-align: left !important;
+    color: #212529;
+    text-align: center;
 }
 
-h1,
+
 h2,
 h3,
 h4 {
@@ -118,17 +118,14 @@ h4 {
     font-family: var(--title-font);
 }
 
-h1 {
-    text-align: center;
-}
 
-.h2__titre {
-    color: $color5;
-    font-weight: var(--font-normal);
-    font-family: var(--body-font);
-    text-align: center;
-    margin-bottom: var(--mb-1-5);
-}
+// .h2__titre {
+//     color: $color5;
+//     font-weight: var(--font-normal);
+//     font-family: var(--body-font);
+//     text-align: center;
+//     margin-bottom: var(--mb-1-5);
+// }
 
 h2 {
     color: $color5;
@@ -136,6 +133,16 @@ h2 {
     font-family: var(--font-normal);
     text-align: center;
     font-size: var(--mb-2);
+    margin: 3rem 0;
+}
+
+.title_h2{
+    font-weight: var(--font-normal);
+    font-family: var(--font-normal);
+    text-align: center;
+    font-size: var(--h2-font-size);
+    margin: 3rem 0;
+    color: #212529;
 }
 
 h3 {
@@ -282,7 +289,7 @@ input {
 .nav {
     height: var(--header-height);
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
 }
 
@@ -395,7 +402,7 @@ input {
 
 .home__container {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     height: 94vh;
@@ -415,6 +422,7 @@ input {
 .home__info-img {
     background-color:transparent;
     padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
 }
 
 .home__info-text {
@@ -1064,7 +1072,8 @@ a.portfolio__data {
 section.contact {
     padding-bottom: 5rem;
     // border: 1px solid red;
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
+    padding-top: 20rem;
 }
 
 .contact__container {
@@ -1480,7 +1489,7 @@ a.contact__title h3:hover {
     }
 
     .section {
-        padding: 9rem 0rem 0rem;
+        padding: 5rem 0rem 0rem;
         margin-bottom: 0rem;
     }
     .section__subtitle {
@@ -1583,7 +1592,11 @@ a.contact__title h3:hover {
 @include md {
     .nav {
         height: calc(var(--header-height) + 1.5rem);
+        justify-content: center;
     }
+
+
+
 
     // .nav.container{
     //     padding: 0 0;
@@ -1607,9 +1620,9 @@ a.contact__title h3:hover {
 
 
 
-    .home__info-img {
-        padding: 2rem 0rem 2rem 1.5rem;
-    }
+    // .home__info-img {
+    //     padding: 2rem 0rem 2rem 1.5rem;
+    // }
 
 
 
