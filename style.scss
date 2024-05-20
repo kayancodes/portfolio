@@ -353,7 +353,7 @@ input {
 
 .nav__link {
     color: $color3;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: var(--font-normal);
     // text-transform: uppercase;
 }
@@ -1425,6 +1425,10 @@ a.contact__title h3:hover {
     }
 
 
+    .contact__container.contact{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .qualification__sections {
         display: grid;
         grid-template-columns: .6fr;
@@ -1640,6 +1644,10 @@ a.contact__title h3:hover {
     }
 
 
+    .nav__link {
+        font-size: 14px;
+
+    }
 
     // .home__info-img {
     //     padding: 2rem 0rem 2rem 1.5rem;

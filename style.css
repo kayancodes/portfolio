@@ -251,7 +251,7 @@ input {
 
 .nav__link {
   color: #adadad;
-  font-size: 14px;
+  font-size: 22px;
   font-weight: var(--font-normal);
 }
 
@@ -1074,6 +1074,10 @@ a.contact__title h3:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .contact__container.contact {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .qualification__sections {
     display: grid;
     grid-template-columns: 0.6fr;
@@ -1249,6 +1253,10 @@ a.contact__title h3:hover {
   .nav__toggle,
 .nav__close {
     display: none;
+  }
+
+  .nav__link {
+    font-size: 14px;
   }
 
   .apropos__container {
