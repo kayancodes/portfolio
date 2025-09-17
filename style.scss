@@ -151,7 +151,7 @@ h3 {
 }
 
 p{
-    line-height: 1.6rem;
+    line-height: 1.7rem;
 }
 
 
@@ -175,6 +175,7 @@ img {
 
 img.img_xs{
     max-width: 70%;
+    // border: 1px solid red;
 }
 
 
@@ -281,6 +282,8 @@ input {
     z-index: var(--z-fixed);
     background-color: $color0;
     border-bottom: 1px solid $color1;
+    z-index: 2000 !important;
+
 }
 
 //================= FIN HEADER ========================================== //
@@ -841,6 +844,7 @@ input {
 .services__list {
     gap: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 //========FIN SERVICES==============================================//
@@ -853,6 +857,23 @@ input {
 .portfolio__card,
 .portfolio__bkg {
     height: 500px;
+}
+
+.labelsrow{
+    // background-color: red;
+    // border: 1px solid red;
+    margin: 1rem 0;
+}
+.label{
+    border: 1px solid darkgray;
+    border-radius: 35px;
+    padding: .3rem .4rem;
+    font-size: 11px;
+}
+
+.label-two{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 
@@ -897,12 +918,14 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: .75rem 1.5rem 1.5rem;
+    padding: .75rem 1.5rem 0.5rem;
 
 }
 
-.portfolio__content-mobile{
+.portfolio__content.portfolio__content-mobile{
+    //height: 120%;
     padding: .75rem 1.5rem 1.5rem;
+   // background-color: red;
 }
 
 .portfolio__data {
@@ -920,6 +943,7 @@ a.portfolio__data {
     font-size: var(--smaller-font-size);
     margin-bottom: var(--mb-1-5);
     line-height: 18px;
+    text-align: left;
 }
 
 .portfolio__title {
@@ -927,6 +951,9 @@ a.portfolio__data {
     margin-bottom: var(--mb-0-5);
     // --mb-0-5: .5rem;
     // --mb-0-75: .75rem;
+    z-index: 900 !important;
+    //background-color: red;
+    position: relative;
 }
 
 
@@ -968,6 +995,10 @@ a.portfolio__data {
     display: flex;
     justify-content: center;
     margin-top: var(--mb-2);
+}
+
+.portfolio__button-autres.second{
+        margin-top: 0;
 }
 
 
@@ -1346,7 +1377,7 @@ a.contact__title h3:hover {
  
 
      img.img_xs{
-        max-width: 100%;
+        max-width: 70%;
     }
 
 }
@@ -1759,6 +1790,9 @@ a.contact__title h3:hover {
 
 
 
+
+
+
 }
 //FIN 768px small tablets and large smartphones (landscape view) ----------------------------------//
 
@@ -1779,6 +1813,12 @@ a.contact__title h3:hover {
         padding: 0rem 8rem 8rem;
         // border: 1px solid purple;
     }
+
+            img.img_xs{
+    max-width: 90%;
+    // border: 1px solid blue;
+}
+
 }
 //FIN 830px small tablets and large smartphones (landscape view)
 
